@@ -1,0 +1,15 @@
+﻿$PBExportHeader$f_empty.srf
+$PBExportComments$Empty function
+global type f_empty from function_object
+end type
+
+forward prototypes
+global subroutine f_empty ()
+end prototypes
+
+global subroutine f_empty ();Integer	li_Dummy
+
+li_Dummy = 1
+
+end subroutine
+

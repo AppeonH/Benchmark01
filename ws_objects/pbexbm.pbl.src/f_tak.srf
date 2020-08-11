@@ -1,0 +1,34 @@
+﻿$PBExportHeader$f_tak.srf
+$PBExportComments$TAK Benchmark function
+global type f_tak from function_object
+end type
+
+forward prototypes
+global function integer f_tak (integer ai_x, integer ai_y, integer ai_z)
+end prototypes
+
+global function integer f_tak (integer ai_x, integer ai_y, integer ai_z);// TAK Benchmark
+// 
+// The TAK benchmark is a variant of a benchmark originated by Japanese
+// researcher Ikuo Takeuchi and is widely used to compare programming
+// tools that make extensive use of function calls. 
+//
+// The commonly used TAK benchmark algorithm is a variant originated
+// when John McCarthy of Stanford University recalled the original
+// Takeuchi function incorrectly at the start of a benchmarking effort.
+//
+// TAK uses a recursive function that when called with the initial values
+// of 18, 12, and 6 will put the processor through 63,609 function calls and
+// 47,706 subtractions by 1. 
+
+If ai_Y >= ai_X Then
+	Return ai_Z
+
+Else
+	Return	f_tak(	f_tak((ai_X - 1), ai_Y, ai_Z), &
+						f_tak((ai_Y - 1), ai_Z, ai_X), &
+						f_tak((ai_Z - 1), ai_X, ai_Y))
+End If
+
+end function
+

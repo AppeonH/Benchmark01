@@ -1,0 +1,27 @@
+﻿$PBExportHeader$p_benchmark_machine32.srj
+$PBExportComments$Project to create 32-bit machine code executable
+EXE:exbm_m.exe,benchmark.pbr,0,0,1
+CMP:1,0,0,2,0,0,1
+COM:Appeon
+DES:Appeon Product File
+CPY:
+PRD:Powerbuilder Enterprise Series
+PVS:8.0.00.3039
+PVN:8,0,0,3039
+FVS:8.0.00.3039
+FVN:8,0,0,3039
+MAN:0,asInvoker,0
+PBD:pbexbm.pbl,,1
+OBJ:C:\Users\appeon\Desktop\pb_demos\pb_code_examples\Benchmark\pbexbm.pbl,benchmark,a
+OBJ:C:\Users\appeon\Desktop\pb_demos\pb_code_examples\Benchmark\pbexbm.pbl,d_sales_orders,d
+OBJ:C:\Users\appeon\Desktop\pb_demos\pb_code_examples\Benchmark\pbexbm.pbl,f_empty,f
+OBJ:C:\Users\appeon\Desktop\pb_demos\pb_code_examples\Benchmark\pbexbm.pbl,u_cst_timer,u
+OBJ:C:\Users\appeon\Desktop\pb_demos\pb_code_examples\Benchmark\pbexbm.pbl,f_tak,f
+OBJ:C:\Users\appeon\Desktop\pb_demos\pb_code_examples\Benchmark\pbexbm.pbl,f_get_profile,f
+OBJ:C:\Users\appeon\Desktop\pb_demos\pb_code_examples\Benchmark\pbexbm.pbl,w_benchmark,w
+OBJ:C:\Users\appeon\Desktop\pb_demos\pb_code_examples\Benchmark\pbexbm.pbl,d_benchmark_report,d
+OBJ:C:\Users\appeon\Desktop\pb_demos\pb_code_examples\Benchmark\pbexbm.pbl,w_report,w
+OBJ:C:\Users\appeon\Desktop\pb_demos\pb_code_examples\Benchmark\pbexbm.pbl,f_set_profile,f
+OBJ:C:\Users\appeon\Desktop\pb_demos\pb_code_examples\Benchmark\pbexbm.pbl,w_center,w
+OBJ:C:\Users\appeon\Desktop\pb_demos\pb_code_examples\Benchmark\pbexbm.pbl,w_machine,w
+OBJ:C:\Users\appeon\Desktop\pb_demos\pb_code_examples\Benchmark\pbexbm.pbl,w_empty,w
